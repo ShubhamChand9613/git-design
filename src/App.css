@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+.left_one h5{
+  color: #0969da;
+  font-weight:400;
+  margin-right:4px;
+}
+.left_one .bold_one{
+  font-weight:900;
+}
+.left_one span{
+  margin-right:4px;
+}
+.badged {
+    /*background-color: #e4e4e4;*/
+    color: #a59b9b!important;
+/*    padding: 4px 8px!important;
+    font-weight: 200!important;
+    border-radius: 31px!important;
+    border: 1px #1b1f2426;*/
+    font-size:12px;
+}
+.right_one button{
+    border: 1px solid #1b1f2426;
+    background: none!important;
+    color: black;
+    font-weight: 200;
+    font-size: 13px;
+    padding: 4px 17px;
+}
+.navbar{
+  background-color:#f6f8fa;
+  border-bottom: 1px solid #d8cece;
+}
+.inner_nav span{
+  font-size:14px;
+}
+.inner_nav span:hover{
+  background-color:#d0d7de52;
+  border:none;
+}
+.box{
+  border:1px solid #d0d7de;
+  background-color:#f6f8fa;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.hgjgh{
+  color:grey;
+}
+.git_content{
+  font-size:14px;
+  padding:25px 25px;
+}
+.second_one span{
+  color:#57606a;
+  font-size:inherit;
+}
+.main_content .count{
+  color:#57606a;
+}
+.all_content{
+  border: 1px solid #d0d7de;
+}
+.all_content:hover{
+  background-color:#ededed;
+}
+.all_content h5{
+  font-weight:500;
+  font-size:16px;
+  margin-bottom:0;
+}
+.comment{
+  font-size:14px;
+  float:right;
+  color: #57606a;
+}
+.numb{
+  font-size:12px;
+  color:#57606a;
+}
+.icons{
+  color:#1a7f37;
+  width:20px;
+  height:20px;
+  position: absolute;
+  left:-22px;
+  top:5px;
+}
+.status_label{
+  background: aquamarine;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  margin: 0 10px;
+}
+.user_img{
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+.relative{
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*.container{
+  height:100vh;
+  overflow:auto;
+}*/
+.color2{
+  background-color: #D4C5F9;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.color1{
+  background-color: #B60205;
+  color:white;
+}
+.color4{
+  background-color: #F7AFDB;
+}
+.color3{
+  background-color: #FBCA04;
+}
+.nums {
+    background-color: #e4e4e4;
+    padding: 5px 10px;
+    border-radius: 34px;
+    margin-left: 10px;
+  }
+@media screen and (max-width: 768px) {
+  .down-arrow{
+    display:none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .comment{
+    display:none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 765px) {
+  .right_one {
+    display:none;
   }
-  to {
-    transform: rotate(360deg);
+  .user_img{
+    display:none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 950px) {
+  .inner_nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main_content {
+    display: none;
   }
 }
